@@ -10,7 +10,7 @@ This module requires Python 3.x. There are no additional external dependencies.
 
 ## Installation
 
-To use this module, simply copy the `ipwhois.py` file into your project directory. You can then import it in your Python script as follows:
+To use this module, simply copy the `ip_whois.py` file into your project directory. You can then import it in your Python script as follows:
 
 ```py
 import ip_whois
