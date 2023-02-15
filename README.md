@@ -38,5 +38,5 @@ The module will automatically perform a WHOIS lookup on the given IP address and
 
 ## License
 
-[GNU General Public License v3.0](aa)
+[GNU General Public License v3.0](LICENSE)
 
