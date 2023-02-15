@@ -2,7 +2,7 @@ import socket
 import re
 import json
 
-def ip_whois(ip):
+def lookup(ip):
     whois_server = "whois.iana.org"
 
     s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
@@ -51,7 +51,3 @@ def ip_whois(ip):
 
     json_output = json.dumps(whois_dict, indent=4)
     return json_output
-
-ip = "196.49.192.49"
-result = ip_whois(ip)
-print(result)
