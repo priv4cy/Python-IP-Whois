@@ -10,7 +10,7 @@ This module requires Python 3.x. There are no additional external dependencies.
 
 ## Installation
 
-To use this module, simply copy the ipwhois.py file into your project directory. You can then import it in your Python script as follows:
+To use this module, simply copy the `ipwhois.py` file into your project directory. You can then import it in your Python script as follows:
 
 ```py
 import ip_whois
@@ -23,7 +23,7 @@ print(result)
 
 ## Usage
 
-To use this module, call the lookup function with the IP address as the argument. The function will return the results of the WHOIS lookup as a JSON object. You can print it out or use it as needed.
+To use this module, call the `lookup` function with the IP address as the argument. The function will return the results of the WHOIS lookup as a JSON object. You can print it out or use it as needed.
 
 ```py
 import ip_whois
